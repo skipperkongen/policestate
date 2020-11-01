@@ -63,6 +63,8 @@ An environment is made up by:
 
 The movement of the dots depends on the environment.
 
+![](dots.png)
+
 ### State
 
 The state of the environment is a list of dot positions in the grid world. For example, the state [0, 0, 0, 0, 0, 0, 0, 0, 0] means that all dots are currently in the upper left corner, while the state [2021, 0, 0, 0, 0, 0, 0, 0, 0] means that the first dot is somewhere around the middle.
