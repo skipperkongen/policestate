@@ -11,7 +11,7 @@ batch = pyglet.graphics.Batch()
 
 
 # https://pyglet.readthedocs.io/en/latest/programming_guide/shapes.html
-circles = [
+dots = [
     pyglet.shapes.Rectangle(
         x=32,
         y=32,
@@ -24,11 +24,11 @@ circles = [
 ]
 
 def update(dt):
-    for circle in circles:
+    for dot in dots:
         delta_x = np.random.randint(-1,2)
         delta_y = np.random.randint(-1,2)
-        circle.x += delta_x
-        circle.y += delta_y
+        dot.x += delta_x
+        dot.y += delta_y
 
 pyglet.clock.schedule_interval(update, 0.1)
 
@@ -38,3 +38,4 @@ def on_draw():
     batch.draw()
 
 pyglet.app.run()
+print('foo')
