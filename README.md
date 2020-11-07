@@ -97,6 +97,7 @@ The criminal's behavour depends on the environment. The different environments a
 
 |Environment name|Criminal behaviour|Status|
 |-|-|-|
+|Shaky-v0|The criminal moves more randomly than the others|Coming soon..|
 |Runny-v0|The criminal runs a little bit more than the others|Coming soon..|
 |Hidey-v0|The criminal hides from the others|Coming soon..|
 |Scary-v0|The criminal scares the others away|Coming soon..|
